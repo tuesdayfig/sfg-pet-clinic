@@ -1,2 +1,2 @@
-# sft-pet-clinic
-SFT Pet Clininc
+# sfg-pet-clinic
+SFG Pet Clininc
