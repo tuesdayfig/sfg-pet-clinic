@@ -82,4 +82,8 @@
 		<developerConnection>scm:git:https://github.com/tuesdayfig/sfg-pet-clinic.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+<!--	<scm>    <connection>scm:git:http://${tuesdayfig}:${halwen123}@github.com/tuesdayfig/sfg-pet-clinic.git</connection>-->
+<!--		<url>https://github.com/tuesdayfig/sfg-pet-clinic.git</url>-->
+<!--		<tag>HEAD</tag>-->
+<!--	</scm>-->
 </project>
