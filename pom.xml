@@ -79,4 +79,8 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/tuesdayfig/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>
