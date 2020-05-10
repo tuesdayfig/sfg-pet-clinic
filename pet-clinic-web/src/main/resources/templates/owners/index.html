@@ -20,6 +20,7 @@
     <tr th:each="owner : ${owners}">
         <td th:text="${owner.id}">1</td>
         <td th:text="${owner.firstName}">Joe</td>
+        <!--/*@thymesVar id="lastName" type="guru.springframework.sfgpetclinic."*/-->
         <td th:text="${owner.lastName}">Buck</td>
     </tr>
     </tbody>
