@@ -26,22 +26,6 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
         return super.findAll();
     }
 
-    public Object findById(Object o) {
-        return null;
-    }
-
-    public Object save(Object object) {
-        return null;
-    }
-
-    public void delete(Object object) {
-
-    }
-
-    public void deleteById(Object o) {
-
-    }
-
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
