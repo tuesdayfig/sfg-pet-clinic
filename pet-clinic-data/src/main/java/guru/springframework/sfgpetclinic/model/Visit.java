@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+
 @Setter
 @Getter
 @NoArgsConstructor
@@ -24,7 +25,8 @@ public class Visit extends BaseEntity {
     @JoinColumn(name = "pet_id")
     private Pet pet;
 
-    private LocalDate getDate() {
+    public LocalDate getDate() {
         return date;
     }
+
 }
