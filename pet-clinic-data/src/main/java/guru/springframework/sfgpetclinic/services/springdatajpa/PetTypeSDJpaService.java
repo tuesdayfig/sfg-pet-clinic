@@ -9,9 +9,11 @@ import org.springframework.stereotype.Service;
 import java.util.HashSet;
 import java.util.Set;
 
+
 @Service
 @Profile("springdatajpa")
 public class PetTypeSDJpaService implements PetTypeService {
+
     private final PetTypeRepository petTypeRepository;
 
     public PetTypeSDJpaService(PetTypeRepository petTypeRepository) {
